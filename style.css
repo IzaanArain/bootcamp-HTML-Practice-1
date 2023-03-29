@@ -156,6 +156,27 @@ a{
     margin: 10px;
 }
 
+.thirdsec{
+display: flex;
+}
+.lastarticle{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.lastarticle h1{
+    font-size: 50px;
+}
+.lastarticle p{
+    padding-left: 50px;
+    font-size: 30px;
+}
+.imagelast{
+    flex:1;
+}
 footer{
     display: flex;
     justify-content: space-around;
@@ -163,6 +184,7 @@ footer{
     text-align: center;
     height: 100px;
     background-color:azure;
+    border-top: 2px solid tomato;
 }
 
 footer h1{
