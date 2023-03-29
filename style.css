@@ -173,7 +173,9 @@ display: flex;
     padding-left: 50px;
     font-size: 30px;
 }
-
+img{
+    border-radius: 20px;
+}
 footer{
     display: flex;
     justify-content: space-around;
@@ -183,11 +185,16 @@ footer{
     background-color:azure;
     border-top: 2px solid tomato;
 }
+footer img{
+    border: none;
+    border-radius: 0;
+}
 
 footer h1{
     color: tomato;
     font-family: monospace;
 }
+
 @media (max-width:768px){
     nav{
         flex-direction: column;
