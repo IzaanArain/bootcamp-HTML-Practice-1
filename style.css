@@ -160,7 +160,6 @@ a{
 display: flex;
 }
 .lastarticle{
-    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,9 +173,7 @@ display: flex;
     padding-left: 50px;
     font-size: 30px;
 }
-.imagelast{
-    flex:1;
-}
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -209,6 +206,13 @@ footer h1{
     .aside-section{
         flex-direction: column;
     }
+    .thirdsec{
+        flex-direction: column;
+    }
+    footer{
+        padding-top: 10px;
+        flex-direction: column;
+    }
 }
 
 @media (max-width:1200px){
@@ -227,6 +231,13 @@ footer h1{
         
     }
     .aside-section{
+        flex-direction: column;
+    }
+    .thirdsec{
+        flex-direction: column;
+    }
+    footer{
+        padding-top: 10px;
         flex-direction: column;
     }
 }
