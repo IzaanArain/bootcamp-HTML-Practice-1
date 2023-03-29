@@ -210,10 +210,6 @@ footer h1{
     .main-section{
         flex-direction: column;
     }
-    .table-section{
-        flex-direction: column;
-        
-    }
     .aside-section{
         flex-direction: column;
     }
@@ -225,32 +221,3 @@ footer h1{
         flex-direction: column;
     }
 }
-
-@media (max-width:1200px){
-    nav{
-        flex-direction: column;
-        
-    }
-    ul{
-        margin-top: 20px;
-    }
-    .main-section{
-        flex-direction: column;
-    }
-    .table-section{
-        flex-direction: column;
-        
-    }
-    .aside-section{
-        flex-direction: column;
-    }
-    .thirdsec{
-        flex-direction: column;
-    }
-    footer{
-        padding-top: 10px;
-        flex-direction: column;
-    }
-}
-
-
