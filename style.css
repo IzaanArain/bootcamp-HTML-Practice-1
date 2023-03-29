@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+th,td{
+    border: 1px red solid;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+}
+td:hover{
+    color: azure;
+    background-color: black;
+}
+table{
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 500px;
+}
+caption{
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    font-family: monospace;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: tomato;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    border: 1px azure solid;
+    text-align: center;
+}
+nav h1{
+    color: white;
+    font-size: 2rem;
+    border: 2px solid azure;
+    padding: 10px;
+    font-family: monospace;
+    border-radius: 10px;
+}
+nav h1:hover{
+    background-color:aqua;
+    color: black;
+}
+li{
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid azure;
+}
+a:hover{
+    background: azure;
+    color: brown;
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:monospace;
+    padding: 10px;
+}
+
+.main-section{
+    display: flex;
+    padding: 20px;
+    gap:20px;
+    background-color: tomato;
+   
+}
+.ms{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.ms h1{
+    font-size: 2rem;
+    font-family: monospace;
+}
+.ms p{
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.main-heading{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.table-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.aside-section{
+    display: flex;
+    padding: 20px;
+    gap:20px;
+    background-color:tomato;
+}
+.aside-header{
+    color: azure;
+    font-family: monospace;
+}
+.as{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.as h1{
+    font-size: 2rem;
+    font-family: monospace;
+}
+.as p{
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.as img{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color:azure;
+}
+
+footer h1{
+    color: tomato;
+    font-family: monospace;
+}
+@media (max-width:768px){
+    nav{
+        flex-direction: column;
+        
+    }
+    ul{
+        margin-top: 20px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .table-section{
+        flex-direction: column;
+        
+    }
+    .aside-section{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:1200px){
+    nav{
+        flex-direction: column;
+        
+    }
+    ul{
+        margin-top: 20px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .table-section{
+        flex-direction: column;
+        
+    }
+    .aside-section{
+        flex-direction: column;
+    }
+}
+
