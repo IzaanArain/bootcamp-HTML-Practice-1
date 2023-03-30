@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 th,td{
-    border: 1px red solid;
-    padding: 10px;
-    border-radius: 2px;
+    border: 3px red solid;
+    padding: 20px;
+    border-radius: 10px;
     font-size: 30px;
     font-family: monospace;
     font-weight: bold;
     text-align: center;
+    background-color: azure;
 }
 td:hover{
     color: azure;
@@ -20,8 +21,9 @@ table{
     border: 3px solid red;
     padding: 10px;
     border-radius: 10px;
-    margin: 20px;
+    margin: 100px;
     height: 500px;
+    border-spacing: 20px;
 }
 caption{
     font-weight: bold;
@@ -120,16 +122,83 @@ a{
     background-color: azure;
 }
 
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+}
+
+.form-group{
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    font-family: monospace;
+    background-color: azure;
+}
+
+.form-group .row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: tomato; */
+    margin:20px 0px;
+}
+
+.form-group input{
+    padding: 10px;
+    border-radius: 30px;
+    border:2px solid tomato;
+    font-family: monospace;
+    font-size: 20px;
+}
+.row label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form-group select{
+    width: 60%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.row #submitBtn{
+width: 100%;
+padding: 10px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 20px;
+background-color: dodgerblue;
+color: white;
+border: 2px solid tomato;
+}
+
+.row #submitBtn:hover{
+    background-color: tomato;
+    color: azure;
+}
+
+.aside-header{
+    background-color: aqua;
+    text-align: center;
+    color: tomato;
+    font-family: monospace;
+    padding: 10px;
+}
 .aside-section{
     display: flex;
     padding: 20px;
     gap:20px;
     background-color:tomato;
 }
-.aside-header{
-    color: azure;
-    font-family: monospace;
-}
+
 .as{
     flex: 1;
     display: flex;
