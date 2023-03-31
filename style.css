@@ -197,7 +197,7 @@ border: 2px solid tomato;
 }
 
 .aside-header{
-    background-color: aqua;
+    background-color:azure;
     text-align: center;
     color: tomato;
     font-family: monospace;
@@ -266,8 +266,8 @@ footer{
     align-items: center;
     text-align: center;
     height: 100px;
-    background-color:azure;
-    border-top: 2px solid tomato;
+    background-color:tomato;
+    border-top: 2px solid red;
 }
 footer img{
     border: none;
@@ -275,7 +275,7 @@ footer img{
 }
 
 footer h1{
-    color: tomato;
+    color: azure;
     font-family: monospace;
 }
 
